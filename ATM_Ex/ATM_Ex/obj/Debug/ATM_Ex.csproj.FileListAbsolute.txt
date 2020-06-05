@@ -1,0 +1,7 @@
+C:\Users\Code\Desktop\CODE_ACADEMY\Back-Home\ATM_OOP\16-05-2020-atm-faridimanzade\ATM_Ex\ATM_Ex\bin\Debug\ATM_Ex.exe.config
+C:\Users\Code\Desktop\CODE_ACADEMY\Back-Home\ATM_OOP\16-05-2020-atm-faridimanzade\ATM_Ex\ATM_Ex\bin\Debug\ATM_Ex.exe
+C:\Users\Code\Desktop\CODE_ACADEMY\Back-Home\ATM_OOP\16-05-2020-atm-faridimanzade\ATM_Ex\ATM_Ex\bin\Debug\ATM_Ex.pdb
+C:\Users\Code\Desktop\CODE_ACADEMY\Back-Home\ATM_OOP\16-05-2020-atm-faridimanzade\ATM_Ex\ATM_Ex\obj\Debug\ATM_Ex.csprojAssemblyReference.cache
+C:\Users\Code\Desktop\CODE_ACADEMY\Back-Home\ATM_OOP\16-05-2020-atm-faridimanzade\ATM_Ex\ATM_Ex\obj\Debug\ATM_Ex.csproj.CoreCompileInputs.cache
+C:\Users\Code\Desktop\CODE_ACADEMY\Back-Home\ATM_OOP\16-05-2020-atm-faridimanzade\ATM_Ex\ATM_Ex\obj\Debug\ATM_Ex.exe
+C:\Users\Code\Desktop\CODE_ACADEMY\Back-Home\ATM_OOP\16-05-2020-atm-faridimanzade\ATM_Ex\ATM_Ex\obj\Debug\ATM_Ex.pdb
