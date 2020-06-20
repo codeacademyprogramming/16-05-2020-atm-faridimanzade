@@ -73,10 +73,10 @@ namespace ATM_Ex
                     OperationDecider(users[userId]);
                     break;
                 }
-                //else
-                //{
-                //    PinAccepter(users);
-                //}
+                else
+                {
+                    PinAccepter(users);
+                }
             }
         }
 
@@ -92,10 +92,10 @@ namespace ATM_Ex
             }
             else if (choice == 2)
             {
-                Console.WriteLine("\nEnter amount that you want to get");
+                Console.WriteLine("\nEnter amount ID(1/2/3/4/5) that you want to get");
                 Console.WriteLine("\n 1. 10 AZN\n 2. 20 AN\n 3. 50 AZN\n 4. 100 AZN\n 5. CustomAmount");
-                int cash = Int32.Parse(Console.ReadLine());
-                GetCash(cash, user);
+                int ID = Int32.Parse(Console.ReadLine());
+                GetCash(ID, user);
             }
             else
             {
@@ -105,13 +105,34 @@ namespace ATM_Ex
 
 
         // Method which does operation on balance
-        private void GetCash(int cash, User user)
+        private void GetCash(int ID, User user)
         {
-            if (cash < 0)
+            int cash = 0;
+            switch (ID)
             {
-                Console.WriteLine("Invalid cash, Please try again");
+                case 1:
+                    cash = 10;
+                    break;
+                case 2:
+                    cash = 20;
+                    break;
+                case 3:
+                    cash = 50;
+                    break;
+                case 4:
+                    cash = 100;
+                    break;
+                case 5:
+                    Console.WriteLine("Please Enter Custom Amount: ");
+                    cash = Int32.Parse(Console.ReadLine());
+                    break;
+                default:
+                    Console.WriteLine("Invalid Cash ID");
+                    cash = 0;
+                    break;
             }
-            else if (cash > user.Creditcard.Balance)
+
+            if (cash > user.Creditcard.Balance)
             {
                 Console.WriteLine("No Enough money on your Balance");
             }
