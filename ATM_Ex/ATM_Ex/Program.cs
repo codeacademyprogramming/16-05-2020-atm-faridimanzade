@@ -71,13 +71,10 @@ namespace ATM_Ex
                 {
                     Console.WriteLine($"Welcome {users[userId].Name}  {users[userId].Surname}");
                     OperationDecider(users[userId]);
-                    break;
-                }
-                else
-                {
-                    PinAccepter(users);
+                    return;
                 }
             }
+            PinAccepter(users);
         }
 
 
